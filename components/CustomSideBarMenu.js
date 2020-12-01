@@ -94,7 +94,7 @@ componentDidMount(){
             size={RFValue(20)}
             iconStyle={{paddingLeft:RFValue(10)}}
             />
-            <Text style={RFValue(15), fontWeight="bold", marginLeft=RFValue(30)}>Log Out</Text>
+            <Text style={{textSize:RFValue(15), fontWeight:"bold", marginLeft:RFValue(30)}}>Log Out</Text>
           </TouchableOpacity>
         </View>
       </View>
