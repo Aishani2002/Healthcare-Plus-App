@@ -76,6 +76,7 @@ export default class SettingScreen extends Component{
               onChangeText={(text)=>{
                 this.setState({
                   firstName: text
+                
                 })
               }}
               value ={this.state.firstName}
@@ -136,7 +137,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor:"#6fc0b8"
+    backgroundColor:"#daffff"
   },
   formContainer:{
     flex: 0.88,
@@ -144,7 +145,7 @@ const styles = StyleSheet.create({
   },
   label:{
     fontSize:RFValue(18),
-    color:"#717D7E",
+    color:"#ff3d00",
     fontWeight:'bold',
     padding:RFValue(10),
     marginLeft:RFValue(20)
@@ -157,7 +158,9 @@ const styles = StyleSheet.create({
     borderRadius:2,
     borderColor:"grey",
     marginBottom:RFValue(20),
-    marginLeft:RFValue(20)
+    marginLeft:RFValue(20),
+    marginTop:RFValue(20),
+    marginRight:RFValue(20),
   },
   button: {
     width: "75%",
@@ -184,6 +187,6 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: RFValue(23),
     fontWeight: "bold",
-    color: "#fff",
+    color: "#ff3d00",
   },
 });

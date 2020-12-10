@@ -319,8 +319,8 @@ const styles = StyleSheet.create({
    padding:10
  },
  registerButton:{
-   width:200,
-   height:40,
+   width:150,
+   height:32,
    alignItems:'center',
    justifyContent:'center',
    borderWidth:1,
