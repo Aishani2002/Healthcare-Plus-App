@@ -157,13 +157,12 @@ const styles = StyleSheet.create({
     borderWidth:1,
     borderRadius:2,
     borderColor:"grey",
-    marginBottom:RFValue(20),
     marginLeft:RFValue(20),
-    marginTop:RFValue(20),
+    marginTop:RFValue(10),
     marginRight:RFValue(20),
   },
   button: {
-    width: "75%",
+    width: RFValue(160),
     height: RFValue(60),
     justifyContent: "center",
     alignItems: "center",
@@ -177,12 +176,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.44,
     shadowRadius: 10.32,
     elevation: 16,
-    marginTop: RFValue(20),
+    marginTop: RFValue(375),
   },
   buttonView:{
     flex: 0.22,
     alignItems: "center",
-    marginTop:RFValue(100)
+    marginTop:RFValue(10)
 },
   buttonText: {
     fontSize: RFValue(23),

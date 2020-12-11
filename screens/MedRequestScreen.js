@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
     padding:10,
   },
   button:{
-    width:"75%",
+    width:100,
     height:50,
     justifyContent:'center',
     alignItems:'center',
